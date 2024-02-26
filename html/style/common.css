@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'EliceDigitalBaeum_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EliceDigitalBaeum_Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+body, h1, h2, h3, p, ul, figure { margin: 0; padding: 0;}
+li {list-style: none;}
+a {text-decoration: none;}
+address {font-size: normal;}
+hr {display: none;}
+.hidden {position: absolute;
+         clip: rect(0 0 0 0);
+         overflow: hidden;
+         width: 1px; height: 1px;
+         margin: -1px;
+
+}
+
+body {width: 720px; margin: 0 auto;
+    background: #b8dbf8;
+    font-family: 'S-CoreDream-3Light';
+   
+   }
+
+#header { position: relative; height: 275px; background: url(../images/bg.png) no-repeat; }
+#header hgroup { position: absolute; right: 30px; bottom: 30px; color: #fff;}
+#header hgroup h1 { font-family: 'S-CoreDream-3Light';
+                    text-shadow: 2px 3px #000; 
+                    font-family: 'EliceDigitalBaeum_Bold';
+
+}
+#header hgroup p { margin-top: 25px; text-shadow: 2px 1px #000;}
+
+
+nav ul { display: flex;
+    /* display: flex;
+        justify-content: space-between; */
+
+}
+nav ul li { width: 25%; 
+    
+}
+nav ul li a { display: block; width: 100%; height: 60px; 
+     background: #003366; color: #fff;
+     text-align: center; line-height: 60px;
+    }
+
+    main {background: #fff; padding: 25px 12px 0;}
+    #content article h3 {margin:  25px 0 15px;}
+    #content article figure{ padding: 0 0 13px 40px; }
+
+footer { padding: 20px 0;
+        text-align: center; font-size: 14px;
+        background: #003300; color: #fff;
+
+}
+footer p {}
+footer address {}
+footer small {}
